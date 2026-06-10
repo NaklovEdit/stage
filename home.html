@@ -1,76 +1,221 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoESIUM - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-<header class="oxford-nav">
-    <nav>
-        <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="has-dropdown">
-                <a href="about.html">About</a>
-                <div class="dropdown-panel">
-                    <a href="about.html">About Us</a>
-                    <a href="#">Organisation</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </li>
-            <li class="has-dropdown">
-                <a href="#">Students</a>
-                <div class="dropdown-panel">
-                    <a href="#">Admissions</a>
-                    <a href="mobility.html">Academic and Student Mobility</a>
-                    <a href="#">Dual PhD program</a>
-                </div>
-            </li>
-            <li class="has-dropdown">
-                <a href="#">Activities</a>
-                <div class="dropdown-panel">
-                    <a href="#">Opening Ceremony</a>
-                    <a href="#">CoESIUM 2025</a>
-                    <a href="#">Grand Dinner 2025</a>
-                </div>
-            </li>
-            <li><a href="#">News</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>CoESIUM</h1>
-            <p>Centre of Excellence for Smart, Integrated and Unmanned Mobility</p>
-            <p>Un partenariat stratégique entre l'UTP et l'ENSAM[cite: 67].</p>
+    <header class="harvard-header">
+        <div class="header-carousel">
+            <img src="img/nav.jpg" alt="" class="header-bg-slide active">
+            <img src="img/image1.jpg" alt="" class="header-bg-slide">
+            <img src="img/image2.jpg" alt="" class="header-bg-slide">
         </div>
-    </section>
+        <div class="header-overlay"></div>
+        <nav class="oxford-nav">
+            <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="about.html">About</a>
+                    <div class="dropdown-panel">
+                        <a href="About/aboutUs.html">About Us</a>
+                        <a href="About/organisation.html">Organisation</a>
+                        <a href="About/contactUs.html">Contact Us</a>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="students.html">Students</a>
+                    <div class="dropdown-panel">
+                        <a href="Students/admissions.html">Admissions</a>
+                        <a href="Students/academicAndStudentMobility.html">Academic and Student Mobility</a>
+                        <a href="Students/dualPhDProgram.html">Dual PhD program</a>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="activities.html">Activities</a>
+                    <div class="dropdown-panel">
+                        <a href="Activities/openingCeremony.html">Opening Ceremony</a>
+                        <a href="Activities/CoESIUM2023.html">CoESIUM 2023</a>
+                        <a href="Activities/CoESIUM2024.html">CoESIUM 2024</a>
+                        <a href="Activities/CoESIUM2025.html">CoESIUM 2025</a>
+                        <a href="Activities/langkawi2024.html">Langkawi 2024</a>
+                        <a href="Activities/paris2025trip.html">Paris 2025 (Trip UTP)</a>
+                        <a href="Activities/paris2025montage.html">Paris 2025 (Montage UTP)</a>
+                        <a href="Activities/grandDiner2025.html">Grand Dinner 2025</a>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="research.html">Research</a>
+                    <div class="dropdown-panel">
+                        <a href="Reaserch/researchActivities.html">Research Activities</a>
+                        <a href="Reaserch/researchFundings.html">Research Fundings</a>
+                        <a href="Reaserch/article.html">Article</a>
+                        <a href="Reaserch/workshopAngers.html">Workshop: Angers</a>
+                        <a href="Reaserch/workshopLille.html">Workshop: Lille</a>
+                        <a href="Reaserch/workshopChalon.html">Workshop: Chalon-sur-Saône</a>
+                        <a href="Reaserch/workshopMetz.html">Workshop: Metz</a>
+                        <a href="Reaserch/workshopParis.html">Workshop: Paris</a>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="partnerships.html">Partnerships</a>
+                    <div class="dropdown-panel">
+                        <a href="Partnerships/campusAngers.html">Angers Campus</a>
+                        <a href="Partnerships/campusChalon.html">Chalon-sur-Saône Campus</a>
+                        <a href="Partnerships/campusLille.html">Lille Campus</a>
+                        <a href="Partnerships/campusMetz.html">Metz Campus</a>
+                        <a href="Partnerships/campusParis.html">Paris Campus</a>
+                    </div>
+                </li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>WELCOME TO CoESIUM</h1>
+            <h2>Center of Excellence for a Sustainable Industry at UTP & Arts et Métiers</h2>
+        </div>
+    </header>
 
-    <section class="container">
-        <h2>Bienvenue sur le portail CoESIUM</h2>
-        <p>Cette plateforme est dédiée à la coopération académique et à la recherche entre la France et la Malaisie[cite: 16].</p>
-        <div class="grid">
-            <div class="card">
-                <h3>Research</h3>
-                <p>Découvrez nos axes de recherche et opportunités de financement[cite: 118].</p>
-            </div>
-            <div class="card">
-                <h3>Mobility</h3>
-                <p>Informations pour les échanges étudiants entre l'UTP et les campus Arts et Métiers[cite: 17, 112].</p>
+    <main>
+        <div class="intro-grand-texte">
+            <h3>What is CoESIUM?</h3>
+            <p>CoESIUM (Center of Excellence for a Sustainable Industry at UTP & Arts et Métiers) is a strategic
+                partnership platform between Universiti Teknologi PETRONAS in Malaysia and the Arts et Métiers school
+                (ENSAM) in France. Our mission is to accelerate international cooperation, drive student mobility, and
+                foster joint research projects focused on sustainable development and the industry of the future.</p>
+        </div>
+
+        <div class="carte-complete-horizontale">
+            <img src="img/Home/image4.jpg" alt="Arts et Métiers ENSAM" class="carte-image-cote">
+            <div class="carte-contenu-cote">
+                <h3 class="carte-titre">Arts et Métiers (ENSAM)</h3>
+                <p class="carte-paragraphe">As a prestigious French engineering school, Arts et Métiers trains
+                    responsible engineers capable of designing sustainable innovations. With multiple campuses across
+                    France, it brings cutting-edge expertise in mechanical, industrial, and energy engineering to the
+                    CoESIUM partnership.</p>
+                <a href="about.html" class="carte-bouton">Discover more</a>
             </div>
         </div>
-    </section>
-</main>
 
-<footer>
-    <p>Universiti Teknologi PETRONAS & Arts et Métiers ENSAM</p>
-    <p>© 2025 CoESIUM - Perak, Malaysia</p>
-</footer>
+        <div class="carte-complete-horizontale">
+            <img src="img/Home/image5.jpg" alt="Universiti Teknologi PETRONAS" class="carte-image-cote">
+            <div class="carte-contenu-cote">
+                <h3 class="carte-titre">Universiti Teknologi PETRONAS</h3>
+                <p class="carte-paragraphe">Ranked among the top 250 universities globally, UTP is a leading private
+                    university in Malaysia owned by PETRONAS. It offers a highly international environment with students
+                    from over 50 countries and world-class research facilities, making it a perfect hub for
+                    technological advancement.</p>
+                <a href="about.html" class="carte-bouton">Discover more</a>
+            </div>
+        </div>
 
-<script src="script.js"></script>
+        <div class="carte-complete-horizontale">
+            <img src="img/Home/image6.jpg" alt="Student Mobility & Research" class="carte-image-cote">
+            <div class="carte-contenu-cote">
+                <h3 class="carte-titre">Student Mobility & Research</h3>
+                <p class="carte-paragraphe">CoESIUM acts as a bridge for students and researchers. We provide
+                    opportunities for exchange programs, dual PhD degrees, and joint funding for innovative research in
+                    smart manufacturing, renewable energies, and environmental management.</p>
+                <a href="students.html" class="carte-bouton">Student Programs</a>
+            </div>
+        </div>
+
+        <h2>Partnership Milestones & Achievements</h2>
+
+        <div class="section-stats">
+            <div class="stat-item">
+                <div class="stat-number">5</div>
+                <div class="stat-label">campuses</div>
+                <p class="stat-desc">Active collaboration across Arts et Métiers campuses: Paris, Lille, Metz, Angers,
+                    and Chalon-sur-Saône.</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Erasmus+</div>
+                <div class="stat-label">funded</div>
+                <p class="stat-desc">Mobility, internships, and cotutelle PhD research programs supported by EU academic
+                    funds.</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1st</div>
+                <div class="stat-label">cotutelle PhD</div>
+                <p class="stat-desc">Successfully defended joint doctoral degree in computing and virtual reality
+                    systems.</p>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2023+</div>
+                <div class="stat-label">symposiums</div>
+                <p class="stat-desc">Annual scientific industry symposiums strengthening links between academia and
+                    industrial partners.</p>
+            </div>
+        </div>
+
+        <h2>Key Collaboration Areas</h2>
+
+        <div class="carte-sans-image">
+            <div class="carte-titre-gauche">
+                <h3>Industrial Decarbonisation & Green Hydrogen</h3>
+            </div>
+            <div class="carte-contenu-droite">
+                <p class="carte-paragraphe">Joint research projects supported by CETIM, Arts et Métiers, and UTP are
+                    actively focusing on green hydrogen storage, additives evaluation, and hybrid AI models for
+                    non-destructive vision-based defect testing to optimize modern clean energy infrastructures.</p>
+                <a href="research.html" class="carte-bouton">Research Overview</a>
+            </div>
+        </div>
+
+        <div class="carte-sans-image">
+            <div class="carte-titre-gauche">
+                <h3>Immersive Technologies & VR Rehabilitation</h3>
+            </div>
+            <div class="carte-contenu-droite">
+                <p class="carte-paragraphe">Through cotutelle doctoral research and internships at Lab Lispen, CoESIUM
+                    leads advancements in haptic VR for crane operations and real-time adaptive stroke rehabilitation
+                    systems (ADAPT-MOVE), creating smart, human-centered assistive technologies.</p>
+                <a href="students.html" class="carte-bouton">Student Experiences</a>
+            </div>
+        </div>
+
+        <div class="carrousel-conteneur">
+            <div class="carrousel-elements">
+                <div class="diapositive">
+                    <img src="img/Home/image7.jpg" alt="">
+                </div>
+                <div class="diapositive">
+                    <img src="img/Home/image8.jpg" alt="">
+                </div>
+                <div class="diapositive">
+                    <img src="img/Home/image9.jpg" alt="">
+                </div>
+                <div class="diapositive">
+                    <img src="img/Home/image10.jpg" alt="">
+                </div>
+                <div class="diapositive">
+                    <img src="img/Home/image11.jpg" alt="">
+                </div>
+                <div class="diapositive">
+                    <img src="img/Home/image12.jpg" alt="">
+                </div>
+            </div>
+            <button class="bouton-prec"></button>
+            <button class="bouton-suiv"></button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Universiti Teknologi PETRONAS, Seri Iskandar, Perak</p>
+        <p>Tel: 1-300-22-8887 | Enquiries: <a href="https://utp.microsoftcrmportals.com/">UCS Portal</a></p>
+        <p>Copyright © Universiti Teknologi PETRONAS 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
